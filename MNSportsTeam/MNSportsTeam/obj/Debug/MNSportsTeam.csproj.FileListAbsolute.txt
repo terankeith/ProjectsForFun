@@ -11,3 +11,16 @@ c:\users\codecamp\documents\visual studio 2015\Projects\MNSportsTeam\MNSportsTea
 C:\Users\CodeCamp\Documents\Visual Studio 2015\Projects\MNSportsTeam\MNSportsTeam\obj\Debug\MNSportsTeam.Migrations.InitialCreate.resources
 C:\Users\CodeCamp\Documents\Visual Studio 2015\Projects\MNSportsTeam\MNSportsTeam\obj\Debug\MNSportsTeam.csproj.GenerateResource.Cache
 C:\Users\CodeCamp\Documents\Visual Studio 2015\Projects\MNSportsTeam\MNSportsTeam\obj\Debug\MNSportsTeam.Migrations.pending.resources
+C:\ProjectsForFun\MNSportsTeam\MNSportsTeam\bin\Debug\MNSportsTeam.exe.config
+C:\ProjectsForFun\MNSportsTeam\MNSportsTeam\obj\Debug\MNSportsTeam.exe
+C:\ProjectsForFun\MNSportsTeam\MNSportsTeam\obj\Debug\MNSportsTeam.pdb
+C:\ProjectsForFun\MNSportsTeam\MNSportsTeam\bin\Debug\MNSportsTeam.exe
+C:\ProjectsForFun\MNSportsTeam\MNSportsTeam\bin\Debug\MNSportsTeam.pdb
+C:\ProjectsForFun\MNSportsTeam\MNSportsTeam\bin\Debug\EntityFramework.dll
+C:\ProjectsForFun\MNSportsTeam\MNSportsTeam\bin\Debug\EntityFramework.SqlServer.dll
+C:\ProjectsForFun\MNSportsTeam\MNSportsTeam\bin\Debug\EntityFramework.xml
+C:\ProjectsForFun\MNSportsTeam\MNSportsTeam\bin\Debug\EntityFramework.SqlServer.xml
+C:\ProjectsForFun\MNSportsTeam\MNSportsTeam\obj\Debug\MNSportsTeam.csprojResolveAssemblyReference.cache
+C:\ProjectsForFun\MNSportsTeam\MNSportsTeam\obj\Debug\MNSportsTeam.Migrations.InitialCreate.resources
+C:\ProjectsForFun\MNSportsTeam\MNSportsTeam\obj\Debug\MNSportsTeam.Migrations.pending.resources
+C:\ProjectsForFun\MNSportsTeam\MNSportsTeam\obj\Debug\MNSportsTeam.csproj.GenerateResource.Cache

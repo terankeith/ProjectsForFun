@@ -14,6 +14,7 @@ namespace MNSportsTeam.Repositories
         List<Team> GetAllTeams();
         Team GetTeamByID(int Id);
         void DeleteTeamByName(string teamName);
-        void DisplayTeams();       
+        void DisplayTeams();
+        Team GetTeamByName(string teamName);   
     }
 }

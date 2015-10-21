@@ -144,5 +144,10 @@ namespace MNSportsTeam.Operations
             }
 
         }
+
+        public Team GetTeamByName(string teamName)
+        {
+            return GetAllTeams().SingleOrDefault(n => n.Name == teamName);
+        }
     }
 }
