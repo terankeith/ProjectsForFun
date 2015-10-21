@@ -1,0 +1,14 @@
+C:\Users\CodeCamp\Documents\Visual Studio 2015\Projects\MNSportsTeam\MNSportsTeamTest.Test\bin\Debug\MNSportsTeamTest.Test.dll.config
+C:\Users\CodeCamp\Documents\Visual Studio 2015\Projects\MNSportsTeam\MNSportsTeamTest.Test\bin\Debug\MNSportsTeamTest.Test.dll
+C:\Users\CodeCamp\Documents\Visual Studio 2015\Projects\MNSportsTeam\MNSportsTeamTest.Test\bin\Debug\MNSportsTeamTest.Test.pdb
+C:\Users\CodeCamp\Documents\Visual Studio 2015\Projects\MNSportsTeam\MNSportsTeamTest.Test\bin\Debug\EntityFramework.dll
+C:\Users\CodeCamp\Documents\Visual Studio 2015\Projects\MNSportsTeam\MNSportsTeamTest.Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CodeCamp\Documents\Visual Studio 2015\Projects\MNSportsTeam\MNSportsTeamTest.Test\bin\Debug\MNSportsTeam.exe
+C:\Users\CodeCamp\Documents\Visual Studio 2015\Projects\MNSportsTeam\MNSportsTeamTest.Test\bin\Debug\nunit.framework.dll
+C:\Users\CodeCamp\Documents\Visual Studio 2015\Projects\MNSportsTeam\MNSportsTeamTest.Test\bin\Debug\MNSportsTeam.pdb
+C:\Users\CodeCamp\Documents\Visual Studio 2015\Projects\MNSportsTeam\MNSportsTeamTest.Test\bin\Debug\EntityFramework.xml
+C:\Users\CodeCamp\Documents\Visual Studio 2015\Projects\MNSportsTeam\MNSportsTeamTest.Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CodeCamp\Documents\Visual Studio 2015\Projects\MNSportsTeam\MNSportsTeamTest.Test\bin\Debug\nunit.framework.xml
+C:\Users\CodeCamp\Documents\Visual Studio 2015\Projects\MNSportsTeam\MNSportsTeamTest.Test\obj\Debug\MNSportsTeamTest.Test.csprojResolveAssemblyReference.cache
+C:\Users\CodeCamp\Documents\Visual Studio 2015\Projects\MNSportsTeam\MNSportsTeamTest.Test\obj\Debug\MNSportsTeamTest.Test.dll
+C:\Users\CodeCamp\Documents\Visual Studio 2015\Projects\MNSportsTeam\MNSportsTeamTest.Test\obj\Debug\MNSportsTeamTest.Test.pdb

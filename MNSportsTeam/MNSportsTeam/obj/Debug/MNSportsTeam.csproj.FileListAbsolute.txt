@@ -1,0 +1,13 @@
+c:\users\codecamp\documents\visual studio 2015\Projects\MNSportsTeam\MNSportsTeam\bin\Debug\MNSportsTeam.exe.config
+c:\users\codecamp\documents\visual studio 2015\Projects\MNSportsTeam\MNSportsTeam\bin\Debug\MNSportsTeam.exe
+c:\users\codecamp\documents\visual studio 2015\Projects\MNSportsTeam\MNSportsTeam\bin\Debug\MNSportsTeam.pdb
+c:\users\codecamp\documents\visual studio 2015\Projects\MNSportsTeam\MNSportsTeam\bin\Debug\EntityFramework.dll
+c:\users\codecamp\documents\visual studio 2015\Projects\MNSportsTeam\MNSportsTeam\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\codecamp\documents\visual studio 2015\Projects\MNSportsTeam\MNSportsTeam\bin\Debug\EntityFramework.xml
+c:\users\codecamp\documents\visual studio 2015\Projects\MNSportsTeam\MNSportsTeam\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\codecamp\documents\visual studio 2015\Projects\MNSportsTeam\MNSportsTeam\obj\Debug\MNSportsTeam.csprojResolveAssemblyReference.cache
+c:\users\codecamp\documents\visual studio 2015\Projects\MNSportsTeam\MNSportsTeam\obj\Debug\MNSportsTeam.exe
+c:\users\codecamp\documents\visual studio 2015\Projects\MNSportsTeam\MNSportsTeam\obj\Debug\MNSportsTeam.pdb
+C:\Users\CodeCamp\Documents\Visual Studio 2015\Projects\MNSportsTeam\MNSportsTeam\obj\Debug\MNSportsTeam.Migrations.InitialCreate.resources
+C:\Users\CodeCamp\Documents\Visual Studio 2015\Projects\MNSportsTeam\MNSportsTeam\obj\Debug\MNSportsTeam.csproj.GenerateResource.Cache
+C:\Users\CodeCamp\Documents\Visual Studio 2015\Projects\MNSportsTeam\MNSportsTeam\obj\Debug\MNSportsTeam.Migrations.pending.resources
