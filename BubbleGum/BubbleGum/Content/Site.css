@@ -1,0 +1,502 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #ffc1cc;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.soprano {
+    background-color: #F986BD;
+    border-radius: 50%;
+	width: 90px;
+	height: 90px; 
+}
+
+.alto {
+    background-color: #F15278;
+    border-radius: 50%;
+	width: 90px;
+	height: 90px; 
+}
+
+.tenor {
+    background-color: #FC46AA;
+    border-radius: 50%;
+	width: 90px;
+	height: 90px; 
+}
+
+.bass {
+    background-color: #DC1884;
+    border-radius: 50%;
+	width: 90px;
+	height: 90px; 
+}
+
+/***************************************
+    BASS
+****************************************/
+#bass-1{
+    -webkit-animation-delay: 5s;
+}
+#bass-2{
+    -webkit-animation-delay: 4s;
+}
+#bass-3{
+    -webkit-animation-delay: 3.05s;
+}
+#bass-4{
+    -webkit-animation-delay: 2.07s;
+}
+#bass-5{
+    -webkit-animation-delay: 6s;
+}
+#bass-6{
+    -webkit-animation-delay: 4.02s;
+}
+#bass-7{
+    -webkit-animation-delay: 1s;
+}
+#bass-8{
+    -webkit-animation-delay: .03s;
+}
+#bass-9{
+    -webkit-animation-delay: 5.5s;
+}
+#bass-10{
+    -webkit-animation-delay: 2.98s;
+}
+#bass-11{
+    -webkit-animation-delay: 0s;
+}
+#bass-12{
+    -webkit-animation-delay: 3s;
+}
+#bass-13{
+    -webkit-animation-delay: 6.66s;
+}
+#bass-14{
+    -webkit-animation-delay: 4.24s;
+}
+#bass-15{
+    -webkit-animation-delay: 6.77s;
+}
+#bass-16{
+    -webkit-animation-delay: 7s;
+}
+#bass-17{
+    -webkit-animation-delay: .09s;
+}
+#bass-18{
+    -webkit-animation-delay: 1.02s;
+}
+#bass-19{
+    -webkit-animation-delay: 2.98s;
+}
+#bass-20{
+    -webkit-animation-delay: 1s;
+}
+#bass-21{
+    -webkit-animation-delay: 5s;
+}
+#bass-22{
+    -webkit-animation-delay: 3s;
+}
+#bass-23{
+    -webkit-animation-delay: 1.09s;
+}
+#bass-24{
+    -webkit-animation-delay: 7s;
+}
+#bass-25{
+    -webkit-animation-delay: 6.5s;
+}
+#bass-26{
+    -webkit-animation-delay: 1.65s;
+}
+#bass-27{
+    -webkit-animation-delay: 2.4s;
+}
+#bass-28{
+    -webkit-animation-delay: 3.33s;
+}
+#bass-29{
+    -webkit-animation-delay: .07s;
+}
+#bass-30{
+    -webkit-animation-delay: .08s;
+}
+#bass-31{
+    -webkit-animation-delay: 7s;
+}
+#bass-32{
+    -webkit-animation-delay: 1.04s;
+}
+#bass-33{
+    -webkit-animation-delay: .04s;
+}
+#bass-34{
+    -webkit-animation-delay: 4.32s;
+}
+#bass-35{
+    -webkit-animation-delay: 5.55s;
+}
+#bass-36{
+    -webkit-animation-delay: 1.03s;
+}
+#bass-37{
+    -webkit-animation-delay: 2.08s;
+}
+#bass-38{
+    -webkit-animation-delay: 2.3s;
+}
+#bass-39{
+    -webkit-animation-delay: .03s;
+}
+#bass-40{
+    -webkit-animation-delay: 4.1s;
+}
+#bass-41{
+    -webkit-animation-delay: 5s;
+}
+#bass-42{
+    -webkit-animation-delay: 1.07s;
+}
+#bass-43{
+    -webkit-animation-delay: 2.07s;
+}
+#bass-44{
+    -webkit-animation-delay: 5.03s;
+}
+#bass-45{
+    -webkit-animation-delay: 1.04s;
+}
+#bass-46{
+    -webkit-animation-delay: 4.29s;
+}
+#bass-47{
+    -webkit-animation-delay: 6.25s;
+}
+#bass-48{
+    -webkit-animation-delay: 1.05s;
+}
+#bass-49{
+    -webkit-animation-delay: 1.06s;
+}
+#bass-50{
+    -webkit-animation-delay: .05s;
+}
+#bass-51{
+    -webkit-animation-delay: 6.24s;
+}
+#bass-52{
+    -webkit-animation-delay: 2.56s;
+}
+#bass-53{
+    -webkit-animation-delay: 1s;
+}
+#bass-54{
+    -webkit-animation-delay: 2s;
+}
+#bass-55{
+    -webkit-animation-delay: 3s;
+}
+#bass-56{
+    -webkit-animation-delay: 4s;
+}
+#bass-57{
+    -webkit-animation-delay: 5s;
+}
+#bass-58{
+    -webkit-animation-delay: 6s;
+}
+#bass-59{
+    -webkit-animation-delay: 7s;
+}
+#bass-60{
+    -webkit-animation-delay: 6s;
+}
+#bass-61{
+    -webkit-animation-delay: 7s;
+}
+#bass-62{
+    -webkit-animation-delay: 2.06s;
+}
+#bass-63{
+    -webkit-animation-delay: 1.06s;
+}
+#bass-64{
+    -webkit-animation-delay: .06s;
+}
+
+/***************************************
+    TENOR
+****************************************/
+#tenor-1 {
+    -webkit-animation-delay: 1s;
+}
+#tenor-2 {
+     -webkit-animation-delay: .02s;
+}
+#tenor-3 {
+     -webkit-animation-delay: 3s;
+}
+#tenor-4 {
+     -webkit-animation-delay: 6.73s;
+}
+#tenor-5 {
+     -webkit-animation-delay: 2.9s;
+}
+#tenor-6 {
+     -webkit-animation-delay: 1.56s;
+}
+#tenor-7 {
+     -webkit-animation-delay: 7.09s;
+}
+#tenor-8 {
+     -webkit-animation-delay: 3.04s;
+}
+#tenor-8{
+     -webkit-animation-delay: 5.29s;
+}
+#tenor-9{
+     -webkit-animation-delay: 6.3s;
+}
+#tenor-10 {
+     -webkit-animation-delay: 1.02s;
+}
+#tenor-11 {
+     -webkit-animation-delay: 2.73s;
+}
+#tenor-12 {
+     -webkit-animation-delay: 3.99s;
+}
+#tenor-13 {
+     -webkit-animation-delay: 4.65s;
+}
+#tenor-14 {
+     -webkit-animation-delay: 5.5s;
+}
+#tenor-15 {
+     -webkit-animation-delay: 1s;
+}
+#tenor-16 {
+     -webkit-animation-delay: 2s;
+}
+#tenor-17 {
+     -webkit-animation-delay: 4.4s;
+}
+#tenor-18 {
+     -webkit-animation-delay: 4.97s;
+}
+#tenor-19 {
+     -webkit-animation-delay: .039s;
+}
+#tenor-20 {
+     -webkit-animation-delay: 5.6s;
+}
+#tenor-21 {
+     -webkit-animation-delay: .4s;
+}
+#tenor-22 {
+     -webkit-animation-delay: 7s;
+}
+#tenor-23 {
+     -webkit-animation-delay: 5.5s;
+}
+#tenor-24 {
+     -webkit-animation-delay: 3.22s;
+}
+#tenor-25 {
+     -webkit-animation-delay: 2.9s;
+}
+#tenor-26 {
+     -webkit-animation-delay: 7.54s;
+}
+#tenor-27 {
+     -webkit-animation-delay: 4.44s;
+}
+#tenor-28 {
+     -webkit-animation-delay: 1.98s;
+}
+#tenor-29 {
+     -webkit-animation-delay: 6.65s;
+}
+#tenor-30 {
+     -webkit-animation-delay: 5.99s;
+}
+#tenor-31 {
+     -webkit-animation-delay: 7s;
+}
+#tenor-32 {
+     -webkit-animation-delay: 1.09s;
+}
+#tenor-33 {
+     -webkit-animation-delay: 4.09s;
+}
+#tenor-34 {
+     -webkit-animation-delay: 3.13s;
+}
+#tenor-35 {
+     -webkit-animation-delay: 3s;
+}
+#tenor-36 {
+     -webkit-animation-delay: .09s;
+}
+#tenor-37 {
+     -webkit-animation-delay: .9s;
+}
+#tenor-38 {
+     -webkit-animation-delay: 1.72s;
+}
+#tenor-39 {
+     -webkit-animation-delay: .89s;
+}
+#tenor-40 {
+     -webkit-animation-delay: 4.29s;
+}
+#tenor-41 {
+     -webkit-animation-delay: 3.32s;
+}
+#tenor-42 {
+     -webkit-animation-delay: 5.76s;
+}
+#tenor-43 {
+     -webkit-animation-delay: 4.92s;
+}
+#tenor-44 {
+     -webkit-animation-delay: 4s;
+}
+#tenor-45 {
+     -webkit-animation-delay: 5.88s;
+}
+#tenor-46 {
+     -webkit-animation-delay: 6.98s;
+}
+#tenor-47 {
+     -webkit-animation-delay: 3.54s;
+}
+#tenor-48 {
+     -webkit-animation-delay: 6.02s;
+}
+/***************************************
+    ALTO
+****************************************/
+#alto-1{
+     -webkit-animation-delay: 2s;
+}
+#alto-2 {
+     -webkit-animation-delay: 6.54s;
+}
+#alto-3 {
+     -webkit-animation-delay: 4.02s;
+}
+#alto-4 {
+     -webkit-animation-delay: 2.98s;
+}
+#alto-5 {
+     -webkit-animation-delay: 5.93s;
+}
+#alto-6{
+     -webkit-animation-delay: 6.88s;
+}
+#alto-7 {
+     -webkit-animation-delay: 3.32s;
+}
+#alto-8 {
+     -webkit-animation-delay: 4s;
+}
+#alto-9 {
+     -webkit-animation-delay: 4.78s;
+}
+#alto-10 {
+     -webkit-animation-delay: 5.65s;
+}
+#alto-11 {
+     -webkit-animation-delay: 1s;
+}
+#alto-12 {
+     -webkit-animation-delay: 7s;
+}
+#alto-13 {
+     -webkit-animation-delay: 3.33s;
+}
+#alto-14 {
+     -webkit-animation-delay: 6.27s;
+}
+#alto-15 {
+     -webkit-animation-delay: 2.22s;
+}
+#alto-16 {
+     -webkit-animation-delay: 3.76s;
+}
+#alto-17 {
+     -webkit-animation-delay: .09s;
+}
+#alto-18 {
+     -webkit-animation-delay: 4.99s;
+}
+#alto-19 {
+     -webkit-animation-delay: 6.55s;
+}
+#alto-20 {
+     -webkit-animation-delay: 4s;
+}
+/***************************************
+    SOPRANO
+****************************************/
+#soprano-1 {
+     -webkit-animation-delay: 1s;
+}
+#soprano-2 {
+     -webkit-animation-delay: 5.32s;
+}
+#soprano-3 {
+     -webkit-animation-delay: 6.44s ;
+}
+#soprano-4 {
+     -webkit-animation-delay: 4.29s;
+}
+#soprano-5 {
+     -webkit-animation-delay: 7s;
+}
+#soprano-6 {
+     -webkit-animation-delay: 1.03s;
+}
+#soprano-7 {
+     -webkit-animation-delay: 6.29s;
+}
+#soprano-8 {
+     -webkit-animation-delay: 3s;
+}
+#soprano-9 {
+     -webkit-animation-delay: 2.5s;
+}
+#soprano-10 {
+     -webkit-animation-delay: 2s;
+}
+#soprano-11 {
+     -webkit-animation-delay: 1.5s;
+}
+#soprano-12 {
+     -webkit-animation-delay: 1s;
+}

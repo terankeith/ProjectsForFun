@@ -136,7 +136,7 @@ namespace MNSportsTeam.Operations
         public void DisplayTeams()
         {
 
-            var teamList = GetAllTeams();
+            List<Team> teamList = GetAllTeams();
 
             foreach (var team in teamList)
             {

@@ -22,17 +22,17 @@ namespace MNSportsTeamTest.Test
             Assert.AreEqual(teamName, expectedTeamName);
         }
 
-        [TestCase("Minnesota Vikings", true)] //How to test if a team has been deleted?
-        public void TestDeleteTeam(string teamName, bool expected)
-        {
-            TeamOps ops = new TeamOps();
-            using (MNSportsTeamContext context = new MNSportsTeamContext())
-            {
-                var team = ops.GetAllTeams().SingleOrDefault(n => n.Name == teamName);
-                context.Teams.Remove(team);
-            }
+        //[TestCase("Minnesota Vikings", true)] //How to test if a team has been deleted?
+        //public void TestDeleteTeam(string teamName, bool expected)
+        //{
+        //    TeamOps ops = new TeamOps();
+        //    using (MNSportsTeamContext context = new MNSportsTeamContext())
+        //    {
+        //        var team = ops.GetAllTeams().SingleOrDefault(n => n.Name == teamName);
+        //        context.Teams.Remove(team);
+        //    }
 
             
-        }
+        //}
     }
 }
