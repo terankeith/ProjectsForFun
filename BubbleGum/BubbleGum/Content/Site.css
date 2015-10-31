@@ -55,7 +55,7 @@ textarea {
 /***************************************
     BASS
 ****************************************/
-#bass-1{
+/*#bass-1{
   
 }
 #bass-2{
@@ -251,7 +251,7 @@ textarea {
 /***************************************
     TENOR
 ****************************************/
-#tenor-1 {
+/*#tenor-1 {
     -webkit-animation-delay: 2.25s;
 }
 #tenor-2 {
@@ -397,11 +397,11 @@ textarea {
 }
 #tenor-48 {
      -webkit-animation-delay: 2.1s;
-}
+}*/
 /***************************************
     ALTO
 ****************************************/
-#alto-1{
+/*#alto-1{
      -webkit-animation-delay: 2s;
 }
 #alto-2 {
@@ -460,11 +460,11 @@ textarea {
 }
 #alto-20 {
      -webkit-animation-delay: 2.8s;
-}
+}*/
 /***************************************
     SOPRANO
 ****************************************/
-#soprano-1 {
+/*#soprano-1 {
      -webkit-animation-delay: 1s;
 }
 #soprano-2 {
@@ -499,4 +499,4 @@ textarea {
 }
 #soprano-12 {
      -webkit-animation-delay: 4.2s;
-}
+} */

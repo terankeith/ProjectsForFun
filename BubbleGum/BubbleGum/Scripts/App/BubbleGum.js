@@ -1,17 +1,32 @@
 ﻿$(function () {
 
-    $('#bass-1').hide().delay(500).fadeIn();
-    $('#bass-2').hide().delay(550).fadeIn();
-    $('#bass-3').hide().delay(600).fadeIn();
-    $('#bass-4').hide().delay(650).fadeIn();
-    $('#bass-5').hide().delay(700).fadeIn();
-    $('#bass-6').hide().delay(750).fadeIn();
-    $('#bass-7').hide().delay(800).fadeIn();
-    $('#bass-8').hide().delay(850).fadeIn();
-    $('#bass-9').hide().delay(900).fadeIn();
-    $('#bass-10').hide().delay(950).fadeIn();
-    $('#bass-11').hide().delay(1000).fadeIn();
-    $('#bass-12').hide().delay(1050).fadeIn();
+    var bass1Delay = 500;
+    var bass2Delay = 550;
+    var bass3Delay = 600;
+    var bass4Delay = 650;
+    var bass5Delay = 700;
+    var bass6Delay = 750;
+    var bass7Delay = 800;
+    var bass8Delay = 850;
+    var bass9Delay = 900;
+    var bass10Delay = 950;
+    var bass11Delay = 1000;
+    var bass12Delay = 1050;
+    var bass13Delay = 1100;
+    var bass14Delay = 1150;
+    //Start of animation intro: 0-9000
+    $('#bass-1').hide().delay(bass1Delay).fadeIn();
+    $('#bass-2').hide().delay(bass2Delay).fadeIn();
+    $('#bass-3').hide().delay(bass3Delay).fadeIn();
+    $('#bass-4').hide().delay(bass4Delay).fadeIn();
+    $('#bass-5').hide().delay(bass5Delay).fadeIn();
+    $('#bass-6').hide().delay(bass6Delay).fadeIn();
+    $('#bass-7').hide().delay(bass7Delay).fadeIn();
+    $('#bass-8').hide().delay(bass8Delay).fadeIn();
+    $('#bass-9').hide().delay(bass9Delay).fadeIn();
+    $('#bass-10').hide().delay(bass10Delay).fadeIn();
+    $('#bass-11').hide().delay(bass11Delay).fadeIn();
+    $('#bass-12').hide().delay(bass12Delay).fadeIn();
     $('#bass-13').hide().delay(1100).fadeIn();
     $('#bass-14').hide().delay(1150).fadeIn();
     $('#tenor-1').hide().delay(1200).fadeIn();
@@ -144,8 +159,139 @@
     $('#bass-62').hide().delay(7650).fadeIn();
     $('#bass-63').hide().delay(7700).fadeIn();
     $('#bass-64').hide().delay(7750).fadeIn();
+   
+    //Section 2: Box Rotation - 9000ms - 18000ms
+
+    function move1(selector, delay, step) {
+        $(selector).delay(delay).animate({
+            left: '+=' + step,
+        }, 1000, function () {
+            $(this).animate({
+                top: '+=' + step,
+            }, 1000, function () {
+                $(this).animate({
+                    left: '-=' + step
+                }, 1000, function () {
+                    $(this).animate({
+                        top: '-=' + step,
+                    }, 1000);
+                });
+            });
+        });
+    }
+
+    function move2(selector, delay, step) {
+        $(selector).delay(delay).animate({
+            top: '+=' + step,
+        }, 1000, function () {
+            $(this).animate({
+                left: '-=' + step,
+            }, 1000, function () {
+                $(this).animate({
+                    top: '-=' + step
+                }, 1000, function () {
+                    $(this).animate({
+                        left: '+=' + step,
+                    }, 1000);
+                });
+            });
+        });
+    }
+
+    function move3(selector, delay, step) {
+        $(selector).delay(delay).animate({
+            top: '-=' + step,
+        }, 1000, function () {
+            $(this).animate({
+                left: '+=' + step,
+            }, 1000, function () {
+                $(this).animate({
+                    top: '+=' + step
+                }, 1000, function () {
+                    $(this).animate({
+                        left: '-=' + step,
+                    }, 1000);
+                });
+            });
+        });
+    }
+
+    function move4(selector, delay, step) {
+        $(selector).delay(delay).animate({
+            left: '-=' + step,
+        }, 1000, function () {
+            $(this).animate({
+                top: '-=' + step,
+            }, 1000, function () {
+                $(this).animate({
+                    left: '+=' + step
+                }, 1000, function () {
+                    $(this).animate({
+                        top: '+=' + step,
+                    }, 1000);
+                });
+            });
+        });
+    }
     
 
+    $(function () {
+        move1('#bass-14', 9150 - bass14Delay, 90);
+        bass14Delay = 9150;
+        move2('#tenor-1', 8000, 90);
+        move3('#bass-18', 7400, 90);
+        move4('#tenor-9', 7400, 90);
+    })
+
+    $(function () {
+        move1('#tenor-34', 4500, 90);
+        move2('#alto-15', 4500, 90);
+        move3('#tenor-38', 3900, 90);
+        move4('#alto-17', 3900, 90);
+    })
+
+    $(function () {
+        move1('#alto-3', 9500, 90);
+        move2('#alto-4', 9500, 90);
+        move3('#soprano-2', 8900, 90);
+        move4('#alto-6', 8900, 90);
+    })
+
+    $(function () {
+        move1('#tenor-28', 9500, 90);
+        move2('#bass-35', 9500, 90);
+        move3('#tenor-32', 8900, 90);
+        move4('#bass-39', 8900, 90);
+    })
+
+    //$(function () {
+    //    move1('#bass-1', 20000 - bass1Delay, 90);
+    //    move2('#bass-2', 20000 - bass2Delay, 90);
+    //    move3('#bass-13', 20000 - bass13Delay, 90);
+    //    move4('#bass-14', 20000 - bass14Delay, 90);
+    //})
+  
+
+    
+    
+
+
+
+    
+    //function experiment() {
+    //    var timeDelay = 500;
+    //    for (var i = 0; i > 13; i++) {
+    //        $(".bass:nth(di)").hide().delay(timeDelay).fadein();
+    //        delay += 50;
+    //    }
+    //}
+
+    //$(function () {
+    //    experiment();
+    //});
+
+    
+    
 
 
     //$(".bass").animate({
@@ -168,23 +314,10 @@
     //});
 
 
-    //function move(step1, step2, step3) {
-    //    $('#bass-64').animate({
-    //        left: '+=' + step1,
-    //    }, 1000, function () {
-    //        $(this).animate({
-    //            top: '+=' + step2,
-    //        }, 1000, function () {
-    //            $(this).animate({
-    //                left: '-=' + step3
-    //            }, 1000);
-    //        });
-    //    });
-    //}
+    
 
-    //$(function () {
-    //    move(100, 50, 70);
-    //});
+    
+   
 
 
 
